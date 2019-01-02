@@ -50,41 +50,57 @@ usrp_benchmark_usb.py  //测试URAN1和电脑的USB通信速率
 **URAN1与电脑的USB总线测试**
 
 ```
-  /usr/local/share/gnuradio/examples/usrp/usrp_benchmark_usb.py
+  #/usr/local/share/gnuradio/examples/usrp/usrp_benchmark_usb.py
 ```
 
 **benchmark信号发射测试**
 
 ```
-  cd /usr/local/share/gnuradio/examples/digital/narrowband/
+  # cd /usr/local/share/gnuradio/examples/digital/narrowband/
 
-  ./benchmark_tx.py –f 900M –T A    //发射一个900M的信号
+  #./benchmark_tx.py –f 900M –T A    //发射一个900M的信号
 ```
 
 **接收测试**
 
 ```
-  cd /usr/local/share/gnuradio/examples/digital/narrowband/
+  #cd /usr/local/share/gnuradio/examples/digital/narrowband/
 
-  ./benchmark_rx.py –f 900M –R A    //接收一个900M的信号
+  #./benchmark_rx.py –f 900M –R A    //接收一个900M的信号
 
   或者
 
-  usrp_fft.py –f 900M –f –R A   //模拟频谱接收900M的信号
+  #usrp_fft.py –f 900M –f –R A   //模拟频谱接收900M的信号
 ```
+
 ### URAN1相关命令的使用
 
 **重新烧写URAN1程序命令**
 
 ```
-  /usr/local/src/gnuradio-3.3.0/usrp/firmware/src/usrp2/burn-usrp4-eeprom
+  #/usr/local/src/gnuradio-3.3.0/usrp/firmware/src/usrp2/burn-usrp4-eeprom
 
-  /usr/local/src /gnuradio-3.3.0/usrp/host/apps/burn-db-eeprom -t rfx900_mimo_b -A –f
+  #/usr/local/src /gnuradio-3.3.0/usrp/host/apps/burn-db-eeprom -t rfx900_mimo_b -A –f
 ```
+
 **URAN1频点改写：900M---1800M**
 
 ```
-/usr/local/src/gnuradio-3.3.0/usrp/host/apps/burn-db-eeprom -t rfx1800_mimo_b -A –f
+  #/usr/local/src/gnuradio-3.3.0/usrp/host/apps/burn-db-eeprom -t rfx1800_mimo_b -A –f
+```
+
+**OpenBTS GSM.Band=900 改为GSM.Band 1800**
+
+```
+1> 刷写子板频点
+  #/usr/local/src/gnuradio-3.3.0/usrp/host/apps/burn-db-eeprom -t rfx1800_mimo_b -A –f
+2> 修改OpenBTS配置文件
+   cd /usr/local/src/openbts-2.6.0Mamou/app
+   打开文件Openbts.conf,修改以下参数：
+   # Valid band values are 850, 900, 1800, 1900.
+   GSM.Band 1800
+   # Valid ARFCN range depends on the band.
+   GSM.ARFCN 585
 ```
 
 ### 硬件相关
@@ -105,3 +121,7 @@ usrp_benchmark_usb.py  //测试URAN1和电脑的USB通信速率
 
 
 * URAN1硬件产品说明
+
+### FAQ:
+
+* 1> 在Ubantu中所以操作尽可能用root

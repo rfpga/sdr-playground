@@ -31,8 +31,9 @@ git push origin master --force
 
 ```
 ##目录结构
-.
+```
 ├── README.md
 └── SDR
     └── usrp_hw
         └── URAN1_Manual.md
+```
