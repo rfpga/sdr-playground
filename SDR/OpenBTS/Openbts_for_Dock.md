@@ -1,8 +1,8 @@
-# OpenBTS  Docker 下载、安装、运行
+# OpenBTS for Docker 下载、安装、运行
 
 
 
-## 0x01 openBts Kit Docker映像下载指南
+## 0x01 OpenBTS for Docker映像下载指南
 
   获取最新版本 `wget https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar`
 
@@ -14,7 +14,7 @@
   ```
 
 
-## 0x02 OpenBTS Docker Kit 准备
+## 0x02 OpenBTS for Docke Kit 准备
 
   使用OpenBTS Docker Kit系统 需要Ubuntu、Docker、OpenBTS的Docker映像、以及发现usrp的usb设备文件的脚本。
 
