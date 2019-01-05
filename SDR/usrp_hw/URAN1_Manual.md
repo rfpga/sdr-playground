@@ -1,4 +1,4 @@
-URAN1# URAN1 使用手册
+# URAN1 使用手册
 
 
 
@@ -23,7 +23,16 @@ URAN1# URAN1 使用手册
 ### 运行环境
 
 * URAN1系统镜像
-[openbts_v3.09_52M.iso](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso) (此映像详细说明)
+
+ * [openbts_v3.09_52M.iso](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso) (此映像详细说明)
+
+
+* URAN1 Docker 映像
+
+ * [openbts4.12_52M_01_01]() (此映像详细说明)
+ * [openbts3.09_52M_02_01]() (此映像详细说明)
+ * [openbts3.09_52M_01_01]() (此映像详细说明)
+
 
 * URAN1系统安装测试
 
@@ -125,3 +134,17 @@ usrp_benchmark_usb.py  //测试URAN1和电脑的USB通信速率
 ### FAQ:
 
 * 1> 在Ubantu中所以操作尽可能用root
+
+### URAN1:
+
+* 1> URAN1 的 GSM 900 已测试
+* 2> URAN1 的 GSM1800 已测试
+
+
+
+测试
+
+![Xseries quickstart figure 1](http://microembedded.cn/images/product/products/usrp_e100/e100_340x280.jpg)
+
+![Xseries quickstart figure 1](https://s3.amazonaws.com/rfagora/50806_131255.JPG)
+![Xseries quickstart figure 1](https://s3.amazonaws.com/sooof/docker_system_image/openbts3.09_52M_01_01/fix52M/52FIX/50806_131255.JPG)
