@@ -31,14 +31,16 @@
 
  * [openbts4.12_52M_01_01]() (此映像详细说明)
  * [openbts3.09_52M_02_01]() (此映像详细说明)
- * [openbts3.09_52M_01_01]() ([硬此映像详细说明 ](<../OpenBTS/Openbts_for_Dock_intro.md>))
+ * [openbts3.09_52M_01_01]() ([硬此映像详细说明 ](<../OpenBTS/openbts3.09_52M_01_01/openbts3.09_52M_01_01_intro.md>))
 
 
 * URAN1系统安装测试
 
-### 0X03 相关命令
+### 0X03 [URAN1测试](<../OpenBTS/openbts3.09_52M_01_01/Openbts_for_Test.md>)
 
-* 常用命令
+### 0X04 URAN1相关命令的使用
+
+**常用命令**
 
 ```
   lsusb                   //查看URAN1设备是否与电脑相连  
@@ -53,57 +55,6 @@
 
   usrp_benchmark_usb.py  //测试URAN1和电脑的USB通信速率
 ```
-
-### 0X04 URAN1测试
-
-**URAN1与电脑的USB总线测试**
-
-```
-  #/usr/local/share/gnuradio/examples/usrp/usrp_benchmark_usb.py
-```
-
-**benchmark信号发射测试**
-
-```
-  # cd /usr/local/share/gnuradio/examples/digital/narrowband/
-
-  #./benchmark_tx.py –f 900M –T A    //发射一个900M的信号
-```
-
-**接收测试**
-
-```
-  #cd /usr/local/share/gnuradio/examples/digital/narrowband/
-
-  #./benchmark_rx.py –f 900M –R A    //接收一个900M的信号
-
-  或者
-
-  #usrp_fft.py –f 900M –f –R A   //模拟频谱接收900M的信号
-```
-
-**OpenBTS测试**
-
-* 1> 下载asterisk 配置文件（[sip.conf](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/minowboard-MAX-openbts2.8-N210镜像文件/sip/1/sip.conf)、[extensions.conf](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/minowboard-MAX-openbts2.8-N210%E9%95%9C%E5%83%8F%E6%96%87%E4%BB%B6/sip/1/extensions.conf)）
-* 2> control+alt+t打开终端
-```
-  #sudo su
-  #asterisk -rx "sip reload"
-  #asterisk -rx "dialpan reload"
-```
-
-* 3> 运行openbts
-```
-  #cd /usr/local/src/openbts-2.6.0Mamou/apps
-  #./OpenBTS
-```
-* 4> control+alt+t打开另一个终端,运行短信功能
-```
-  #cd /usr/local/src/openbts-2.6.0Mamou/smqueue
-  #./smqueue
-```
-
-### 0X05 URAN1相关命令的使用
 
 **重新烧写URAN1程序命令**
 
@@ -137,17 +88,17 @@
    GSM.ARFCN 585
 ```
 
-### 0X06 硬件相关
+### 0X05 硬件相关
 
 * [URAN1原理图](https://s3.cn-north-1.amazonaws.com.cn/microembedded/USRP%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/RAD1/RAD1%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E6%95%B4%E7%90%86/RAD1%E5%8E%9F%E7%90%86%E5%9B%BE/RAD-1%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
 * URAN1数据手册
 
-### 0X07 应用实例
+### 0X06 应用实例
 
 * URAN1实验指导书
 
-### 0X08 资料
+### 0X07 资料
 
 * [GRC编程ppt](https://s3.cn-north-1.amazonaws.com.cn/microembedded/USRP%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/RAD1/RAD1%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E6%95%B4%E7%90%86/RAD1--GRC--PPT/gr_tutorial.pdf)
 
@@ -160,11 +111,11 @@
 
 * URAN1硬件产品说明
 
-### FAQ:
+### 0X08 FAQ:
 
 * 1> 在Ubantu中所以操作尽可能用root
 
-### URAN1:
+##### URAN1:
 
 * 1> URAN1 的 GSM 900 已测试
 * 2> URAN1 的 GSM1800 已测试
