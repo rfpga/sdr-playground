@@ -31,12 +31,12 @@
 *Docker 映像:*
 
  * [openbts4.12_52M_01_01](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso) (此映像详细说明)
- * [openbts3.09_52M_02_01]() (此映像详细说明)
+ * [openbts3.09_52M_02_01](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar) (此映像详细说明)
  * [openbts3.09_52M_01_01](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar) ([此映像详细说明 ](<../../OpenBTS/openbts3.09_52M_01_01/openbts3.09_52M_01_01_intro.md>))
 
 ##### 2> [URAN1系统安装测试:](<./URAN1_Install_Test.md>)
 
-### 0X03 --- [URAN1测试](<../../OpenBTS/openbts3.09_52M_01_01/Openbts_for_Test.md>)
+### 0X03 --- [URAN1测试及openbts运行](<../../OpenBTS/openbts3.09_52M_01_01/Openbts_for_Test.md>)
 
 ### 0X04 --- [URAN1相关命令的使用](<./URAN1_Cmd.md>)
 

@@ -9,8 +9,8 @@
 
   将openbts系统压缩文件转换为本地Docker镜像
 
-  ```
-  #cat /media/SYS/openbts3.09_52M_02_01.tar | docker import - openbts3.09_52:0201
+  ```Bash
+  #cat /media/SYS/openbts3.09_52M_02_01.tar | docker import - openbts3.09_52:0201 #Bash
   ```
 
 
@@ -35,26 +35,26 @@
 
   * 安装Docker使用apt-get命令:
 
-    ```
+    ```Bash
     $sudo su
     ```
 
   * 安装Docker使用apt-get命令:
 
-    ```
+    ```Bash
     #apt-get install docker.io
     ```
 
   * 启动服务和守护进程
 
-    ```
+    ```Bash
     #service docker status
     #service docker start
     ```
 
   * 创建软连接
 
-    ```
+    ```Bash
     #ln -sf /usr/bin/docker.io /usr/local/bin/docker
     ```
 
@@ -64,57 +64,52 @@
 
   1. 先从中央仓库下一个registry镜像下来
 
-   ```
+   ```Bash
    #docker pull registry
    ```
 
   2. 下载完成之后可以看到一个￼registry的镜像，通过命令启动容器（需要挂载一个本地目录，防止删除容器时将仓库中的镜像也删掉)
 
-    ```
+    ```Bash
     #docker run -d -p 5000:5000 -v /opt/data/registry:/tmp/registry registry
     ```
 
 ## 0x04 --- 在 Docker 上 Run BTS
 
-    运行OpenBTS需要经过以下两个步骤：
+运行OpenBTS需要经过以下两个步骤：
 
-    - [制作Docker映像](./makedockerimg.md)
-    - [运行OpenBTS](loginbtssys.md)
-    # 制作Docker映像
+###### 1> 制作Docker映像
 
-    ## 将openbts系统压缩文件转换为本地Docker镜像
+ * 下载
 
-    - 下载
+```Bash
+wget https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar
+```
+ * 运行以下命令：将openbts系统压缩文件转换为本地Docker镜像
 
-    ```
-    wget http://iplink.me/openbts3.09_52M_02_01.tar
-    ```
-    - 运行以下命令：
+```Bash
+#cat /media/SYS/openbts3.09_52M_02_01.tar | docker import - openbts3.09_52:0201
+```
 
-    ```
-    #cat /media/SYS/openbts3.09_52M_02_01.tar | docker import - openbts3.09_52:0201
-    ```
-    # 运行OpenBTS
+###### 2> 运行OpenBTS
 
-    * 运行以下命令登陆Docker openbts3.09_52。
+* a> 运行以下命令登陆Docker openbts3.09_52。
 
-      ```
-      #docker run -t -i --device=`cat find_usb_dev.txt`  openbts3.09_52:0201  /bin/bash
-      ```
+```Bash
+#docker run -t -i --device=`cat find_usb_dev.txt`  openbts3.09_52:0201  /bin/bash
+```
 
-    * 登陆上openbts3.09_52
+* b> 运行smqueue：
 
-      运行smqueue：
+```Bash
+root@9a59ca6ebc6a#cd /usr/local/src/openbts-2.6.0Mamou/smqueue/
+root@9a59ca6ebc6a/usr/local/src/openbts-2.6.0Mamou/smqueue# ./smqueue
+```
 
-      ```
-      root@9a59ca6ebc6a#cd /usr/local/src/openbts-2.6.0Mamou/smqueue/
-      root@9a59ca6ebc6a/usr/local/src/openbts-2.6.0Mamou/smqueue# ./smqueue
-      ```
+* c> 运行asterisk 和 OpenBTS：
 
-       运行asterisk 和 OpenBTS：
-
-       ```
-       root@9a59ca6ebc6a#cd /usr/local/src/openbts-2.6.0Mamou/app
-       root@9a59ca6ebc6a:/usr/local/src/openbts-2.6.0Mamou/apps# asterisk -v &
-       root@9a59ca6ebc6a:/usr/local/src/openbts-2.6.0Mamou/apps# ./OpenBTS
-       ```
+```Bash
+root@9a59ca6ebc6a#cd /usr/local/src/openbts-2.6.0Mamou/app
+root@9a59ca6ebc6a:/usr/local/src/openbts-2.6.0Mamou/apps# asterisk -v &
+root@9a59ca6ebc6a:/usr/local/src/openbts-2.6.0Mamou/apps# ./OpenBTS
+```
