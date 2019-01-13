@@ -2,7 +2,7 @@
 
 
 
-## 0x01 OpenBTS for Docker映像下载指南
+## 0x01 --- OpenBTS for Docker映像下载指南
 
   获取最新版本 `wget https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar`
 
@@ -14,7 +14,7 @@
   ```
 
 
-## 0x02 OpenBTS for Docke Kit 准备
+## 0x02 --- OpenBTS for Docke Kit 准备
 
   使用OpenBTS Docker Kit系统 需要Ubuntu、Docker、OpenBTS的Docker映像、以及发现usrp的usb设备文件的脚本。
 
@@ -29,7 +29,7 @@
   * 发现usrp的usb设备文件的脚本 --- [find_usb_dev.sh](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/find_usb_dev.sh)
 
 
-## 0x03 在 Ubuntu 14.04 安装 Docker
+## 0x03 --- 在 Ubuntu 14.04 安装 Docker
 
   Docker利用Linux容器(LXC)虚拟化技术提供一份部署环境。Docker目的是创建可移植,可分发给任何的Docker环境中运行。Docker由于是OpenVZ的作品,对内核有一些要求，不要在14.04版本的Ubuntu仓库中已经可以查找到。
 
@@ -74,7 +74,7 @@
     #docker run -d -p 5000:5000 -v /opt/data/registry:/tmp/registry registry
     ```
 
-## 0x04 在 Docker 上 Run BTS
+## 0x04 --- 在 Docker 上 Run BTS
 
     运行OpenBTS需要经过以下两个步骤：
 

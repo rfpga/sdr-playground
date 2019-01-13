@@ -1,10 +1,10 @@
 # OpenBTS for Docker 介绍
 
-## 0x01 简介
+## 0x01 --- 简介
 
  OpenBTS是一个基于软件的 GSM 接入点， GSM兼容手机允许标准作为SIP端点在语音IP（VOIP）网络。OpenBTS是一个开源的软件开发和维护的网络范围。OpenBTS for Docker是可以一个运行在docker上的openbts。
 
-## 0x02 准备
+## 0x02 --- 准备
 
 * Hardware
 

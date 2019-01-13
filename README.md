@@ -31,9 +31,25 @@ git push origin master --force
 
 ```
 ##目录结构
-```
+```text
+.
 ├── README.md
 └── SDR
+    ├── OpenBTS
+    │   ├── Openbts_for_Dock_intro.md
+    │   ├── openbts3.09_52M_01_01
+    │   │   ├── Asterisk_Cmd.md
+    │   │   ├── Openbts_for_Dock.md
+    │   │   ├── Openbts_for_Test.md
+    │   │   └── openbts3.09_52M_01_01_intro.md
+    │   ├── openbts3.09_52M_02_01
+    │   │   └── openbts3.09_52M_02_01_intro.md
+    │   └── openbts4.12_52M_01_01
+    │       └── openbts4.12_52M_01_01_intro.md
     └── usrp_hw
-        └── URAN1_Manual.md
+        └── URAN1
+            ├── URAN1_Cmd.md
+            ├── URAN1_Datasheet.md
+            ├── URAN1_Install_Test.md
+            └── URAN1_Manual.md
 ```
