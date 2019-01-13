@@ -17,7 +17,7 @@
 
 ## 0x02 --- OpenBTS for Docker映像下载指南
 
-  获取最新版本 `wget https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar`
+  获取最新版本 `wget https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar`
 
 
   将openbts系统压缩文件转换为本地Docker镜像
@@ -38,7 +38,7 @@
 ### Pre-installed Software
   * [Ubuntu 14.04](https://)
   * Docker
-  * OpenBTS的Docker映像 --- [openbts3.09_52M_02_01.tar](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar)
+  * OpenBTS的Docker映像 --- [openbts3.09_52M_02_01.tar](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar)
   * 发现usrp的usb设备文件的脚本 --- [find_usb_dev.sh](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/find_usb_dev.sh)
 
 
@@ -96,7 +96,7 @@
  * 下载
 
 ```Bash
-wget https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar
+wget https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar
 ```
  * 运行以下命令：将openbts系统压缩文件转换为本地Docker镜像
 

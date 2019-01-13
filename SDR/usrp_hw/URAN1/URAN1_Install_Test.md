@@ -29,17 +29,20 @@ Pic3
 ###### 2、
 
  * （1）点击``[Try  Ubuntu]``可以启动光盘中的 Ubuntu 系统，如下图所示：
+
  ![URAN1_Install_Test 4](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test4.png)
 
  Pic4
 
  这里可以运行各种测试程序，完成对实验平台的测试，但是速度较慢，如需 现阶段就开始测试实验平台，请跳至下面的【三】继续阅读；如需将系统装入您 的计算机，请继续阅读；
  * （2）点击``[Install  Ubuntu]``可以将 Ubuntu 系统装入计算机，如下图所示：
+
  ![URAN1_Install_Test 5](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test5.png)
 
  Pic5
 
  点击[Forward]继续安装：
+
  ![URAN1_Install_Test 6](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test6.png)
 
  Pic6
@@ -48,6 +51,7 @@ Pic3
  第一项为本系统和计算机中的其他操作系统共存； 第二项为覆盖其他操作系统；
  第三项为手动选择安装模块；
  我们选择第一项，然后点击``[Forward]``:
+
  ![URAN1_Install_Test 7](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test7.png)
 
  Pic7
@@ -58,6 +62,7 @@ Pic3
 ###### 3、在安装过程中会以下出现如下画面完成您对系统的个人配置： 选择您所在的时区如：shanghai
 
 然后点击``[Forward]``:
+
 ![URAN1_Install_Test 8](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test8.png)
 
 Pic8
@@ -68,16 +73,19 @@ Pic8
 Pic9
 
 输入姓名、密码和密码确认，默认``[Require  my password  to  log  in]``即需 要密码登入，点击``[Forward]``:
+
 ![URAN1_Install_Test 10](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test10.png)
 
 Pic10
 
 等待系统安装完成，需要一段时间，期间可以点击左右拉箭头阅读系统的一 些介绍：
+
 ![URAN1_Install_Test 11](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test11.png)
 
 Pic11
 
 完成后会出现如下画面，系统询问是否重启，点击``[Restart  Now]``；重启之前，请将计算机调回硬盘启动（参照第一步）；
+
 ![URAN1_Install_Test 12](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test12.png)
 
 Pic12
@@ -91,6 +99,7 @@ Pic12
 Pic13
 
 输入密码登入刚才安装的 Ubuntu 系统：
+
 ![URAN1_Install_Test 14](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test14.png)
 
 Pic14
@@ -118,6 +127,7 @@ Pic16
 Pic17
 
 选择要检查的子板端口点击``[probe]``:
+
 ![URAN1_Install_Test 18](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test18.png)
 
 Pic18
@@ -131,11 +141,13 @@ Pic18
 ```
 测试
 USB 通信速率：
+
 ![URAN1_Install_Test 19](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test19.png)
 
 Pic19
 
 正确结果如下，如出现 failed，则母版的 USB 接口故障：
+
 ![URAN1_Install_Test 20](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test20.png)
 
 Pic20
@@ -149,6 +161,7 @@ Pic20
 benchmark_tx.py –f 900M –T A
 ```
 发射信号：
+
 ![URAN1_Install_Test 21](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test21.png)
 
 Pic21
@@ -157,6 +170,7 @@ Pic21
 ```bash
 usrp_fft.py  –f  900M  –R  A  
 ```
+
 ![URAN1_Install_Test 22](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test22.png)
 
 Pic22

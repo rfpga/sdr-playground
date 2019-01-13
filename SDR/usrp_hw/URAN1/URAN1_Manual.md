@@ -24,15 +24,8 @@
 
 ##### 1> URAN1系统镜像:
 
-*ISO:*
-
- * [openbts_v3.09_52M.iso](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso) ([此映像详细说明 ](<../../OpenBTS/openbts3.09_52M_01_01/openbts3.09_52M_01_01_intro.md>))
-
-*Docker 映像:*
-
- * [openbts4.12_52M_01_01](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso) (此映像详细说明)
- * [openbts3.09_52M_02_01](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar) (此映像详细说明)
- * [openbts3.09_52M_01_01](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar) ([此映像详细说明 ](<../../OpenBTS/openbts3.09_52M_01_01/openbts3.09_52M_01_01_intro.md>))
+* [ISO 映像](<../../OpenBTS/Openbts_intro.md>)
+* [Docker 映像](<../../OpenBTS/Openbts_intro.md>)
 
 ##### 2> [URAN1系统安装测试:](<./URAN1_Install_Test.md>)
 

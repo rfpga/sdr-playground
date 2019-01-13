@@ -30,19 +30,33 @@ git reset --hard d3b87bab6d216299d7167f9e53ac1ed43c6a1xxx
 git push origin master --force
 
 ```
-##目录结构
+## 目录结构
 ```text
 .
 ├── README.md
 └── SDR
     ├── OpenBTS
-    │   ├── Openbts_for_Dock_intro.md
+    │   ├── CMD
+    │   │   ├── Asterisk_Cmd
+    │   │   │   └── asterisk1.6_Cmd.md
+    │   │   └── OpenBTS_Cmd
+    │   │       └── OpenBTS2.6_Cmd.md
+    │   ├── Conf
+    │   │   ├── Asterisk_Conf
+    │   │   │   └── Asterisk1.6_For_OpenBTS2.6_Conf.md
+    │   │   ├── Brush_SIM_Card
+    │   │   │   ├── Brush_SIM_Card_CN.md
+    │   │   │   └── Brush_SIM_Card_US.md
+    │   │   └── OpenBTS_Conf
+    │   │       └── OpenBTS2.6_Conf.md
+    │   ├── Openbts_intro.md
     │   ├── openbts3.09_52M_01_01
-    │   │   ├── Asterisk_Cmd.md
     │   │   ├── Openbts_for_Dock.md
     │   │   ├── Openbts_for_Test.md
-    │   │   └── openbts3.09_52M_01_01_intro.md
+    │   │   ├── openbts3.09_52M_01_01_intro.md
+    │   │   └── openbts3.09_52M_ISO_intro.md
     │   ├── openbts3.09_52M_02_01
+    │   │   ├── Openbts_for_Dock.md
     │   │   └── openbts3.09_52M_02_01_intro.md
     │   └── openbts4.12_52M_01_01
     │       └── openbts4.12_52M_01_01_intro.md
@@ -52,4 +66,44 @@ git push origin master --force
             ├── URAN1_Datasheet.md
             ├── URAN1_Install_Test.md
             └── URAN1_Manual.md
+
+14 directories, 19 files
+```
+
+**find的使用:**
+
+```
+find ../ -name .DS_Store -exec rm {} \;
+find ~/ -name '.DS_Store' -delete 删除当前目录的.DS_store
+find . -type f -exec stat --format '%Y :%y %n' "{}" \; | grep -v cache | sort -nr | cut -d: -f2- | head
+find . -type f -name "*.c" | xargs stat --format "%y %n" |sort -rn |head
+
+搜索隐藏文件，并删除
+find ./ -name "\.*"
+find ./ -name "\.*" -exec rm {} \;
+```
+**搞定讨厌的.DS_store**
+
+删除当前目录的.DS_store
+
+```
+find . -name '*.DS_Store' -type f -delete
+```
+
+删除所有目录的.DS_store
+
+```
+sudo find / -name “.DS_Store” -depth -exec rm {} \;
+```
+
+禁止.DS_store生成：
+
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+```
+
+恢复.DS_store生成：
+
+```
+defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 ```

@@ -1,4 +1,4 @@
-# openbts3.09_52M_01_01 介绍
+# openbts3.09_52M_ISO 介绍
 
 
 #### 0x01 --- [系统安装测试](<../../usrp_hw/URAN1/URAN1_Install_Test.md>)
@@ -15,5 +15,3 @@
  * [OpenBTS 配置](<../Conf/OpenBTS_Conf/OpenBTS2.6_Conf.md>)
  * [asterisk 配置](<../Conf/Asterisk_Conf/Asterisk1.6_For_OpenBTS2.6_Conf.md>)
  * [SIM 刷写](<../Conf/Brush_SIM_Card/Brush_SIM_Card_CN.md>)
-
-#### 0x06 --- [OpenBTS for Docker 下载、安装、运行](<./Openbts_for_Dock.md>)
