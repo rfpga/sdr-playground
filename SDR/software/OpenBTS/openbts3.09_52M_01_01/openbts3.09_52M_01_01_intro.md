@@ -1,11 +1,11 @@
-# openbts3.09_52M_01_01 介绍
+# openbts3.09 52M 01.01 Docker映像 介绍
 
 
-#### 0x01 --- [系统安装测试](<../../usrp_hw/URAN1/URAN1_Install_Test.md>)
+#### 0x01 --- [系统安装测试](<../../../hardware/USRPHW/URAN1/URAN1_Install_Test.md>)
 
 #### 0x02 --- [URAN1测试](<./Openbts_for_Test.md>)
 
-#### 0x03 --- [URAN1相关命令的使用](<../../usrp_hw/URAN1/URAN1_Cmd.md>)
+#### 0x03 --- [URAN1相关命令的使用](<../../../hardware/USRPHW/URAN1/URAN1_Cmd.md>)
 
 #### 0X04 --- 相关命令
 * [OpenBTS 命令](<../CMD/OpenBTS_Cmd/OpenBTS2.6_Cmd.md>)

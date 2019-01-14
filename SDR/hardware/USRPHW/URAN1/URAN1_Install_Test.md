@@ -68,6 +68,7 @@ Pic3
 Pic8
 
 选择键盘布局，默认为  USA，点击``[Forward]``:
+
 ![URAN1_Install_Test 9](https://s3.amazonaws.com/rfagora/image/img/URAN1_Install_Test/URAN1_Install_Test9.png)
 
 Pic9

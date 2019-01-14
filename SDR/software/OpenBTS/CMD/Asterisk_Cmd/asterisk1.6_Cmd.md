@@ -3,6 +3,19 @@
 asterisk是开源的VOIP系统。是目前最流行的VOIP开源软件。
 在使用过程中  可以使用下述的命令，对系统进行监控调试。
 
+###### asterisk 调试openbts常用命令：
+
+```
+asterist -r
+core show help
+sip show users
+sip show user IMSI460071773117280
+sip show peers
+sip reload
+dialplan reload
+```
+
+
 ###### 1. 运行调试常用命令
 ```bash
 ./asterisk &     #在后台启动asterisk

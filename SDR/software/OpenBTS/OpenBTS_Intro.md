@@ -6,7 +6,7 @@
 
 ## 0x02 --- OpenBTS的ISO映像发布的版本
 
-**[openbts_v3.09_52M.iso](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)：[此映像详细说明](<./openbts3.09_52M_01_01/openbts3.09_52M_ISO_intro.md>)（for 中国）**
+**[openbts3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)：[此映像详细说明](<./openbts3.09_52M_01_01/openbts3.09_52M_ISO_intro.md>)（for 中国）**
 
 	openbts_v3.09_52M.iso --- 老版本 openBts3.09_52 映像文件
 
@@ -26,7 +26,7 @@
 
 ## 0x03 --- OpenBTS的Docker映像发布的版本
 
-**[openbts4.12_52M_01_01](https://)：[此映像详细说明](<./openbts4.12_52M_01_01/openbts4.12_52M_01_01_intro.md>)（for US）**
+**[openbts4.12 52M 01.01 Docker映像](https://)：[此映像详细说明](<./openbts4.12_52M_01_01/openbts4.12_52M_01_01_intro.md>)（for US）**
 
     openbts4.12_52M_01_01.tar ---  openbts4.12_52M_01_01 映像文件
 
@@ -43,7 +43,7 @@
  * a> 基站发:=949.6MHz
 
 
-**[openbts3.09_52M_02_01](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar)：[此映像详细说明](<./openbts3.09_52M_02_01/openbts3.09_52M_02_01_intro.md>)（for US）**
+**[openbts3.09 52M 02.01 Docker映像](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar)：[此映像详细说明](<./openbts3.09_52M_02_01/openbts3.09_52M_02_01_intro.md>)（for US）**
 
 	openbts3.09_52M_02_01.tar ---  openBts3.09_52 映像文件
 
@@ -60,7 +60,7 @@
    * a> 基站收:=904.6MHz
    * a> 基站发:=949.6MHz
 
-**[openbts3.09_52M_02_01](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar)：[此映像详细说明](<./openbts3.09_52M_01_01/openbts3.09_52M_01_01_intro.md>)（for 中国）**
+**[openbts3.09 52M 02.01 Docker映像](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/system1.tar)：[此映像详细说明](<./openbts3.09_52M_01_01/openbts3.09_52M_01_01_intro.md>)（for 中国）**
 
 	system.tar --- 老版本 openBts3.09_52 映像文件
 

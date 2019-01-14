@@ -24,12 +24,12 @@
 
 ##### 1> URAN1系统镜像:
 
-* [ISO 映像](<../../OpenBTS/Openbts_intro.md>)
-* [Docker 映像](<../../OpenBTS/Openbts_intro.md>)
+* [ISO 映像](<../../../software/OpenBTS/OpenBTS_Intro.md>)
+* [Docker 映像](<../../../software/OpenBTS/OpenBTS_Intro.md>)
 
 ##### 2> [URAN1系统安装测试:](<./URAN1_Install_Test.md>)
 
-### 0X03 --- [URAN1测试及openbts运行](<../../OpenBTS/openbts3.09_52M_01_01/Openbts_for_Test.md>)
+### 0X03 --- [URAN1测试及openbts运行](<../../../software/OpenBTS/openbts3.09_52M_01_01/Openbts_for_Test.md>)
 
 ### 0X04 --- [URAN1相关命令的使用](<./URAN1_Cmd.md>)
 

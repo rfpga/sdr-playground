@@ -1,4 +1,4 @@
-# sooof_workspace
+# sooof workspace
 work
 
 
@@ -34,40 +34,48 @@ git push origin master --force
 ```text
 .
 ├── README.md
-└── SDR
-    ├── OpenBTS
-    │   ├── CMD
-    │   │   ├── Asterisk_Cmd
-    │   │   │   └── asterisk1.6_Cmd.md
-    │   │   └── OpenBTS_Cmd
-    │   │       └── OpenBTS2.6_Cmd.md
-    │   ├── Conf
-    │   │   ├── Asterisk_Conf
-    │   │   │   └── Asterisk1.6_For_OpenBTS2.6_Conf.md
-    │   │   ├── Brush_SIM_Card
-    │   │   │   ├── Brush_SIM_Card_CN.md
-    │   │   │   └── Brush_SIM_Card_US.md
-    │   │   └── OpenBTS_Conf
-    │   │       └── OpenBTS2.6_Conf.md
-    │   ├── Openbts_intro.md
-    │   ├── openbts3.09_52M_01_01
-    │   │   ├── Openbts_for_Dock.md
-    │   │   ├── Openbts_for_Test.md
-    │   │   ├── openbts3.09_52M_01_01_intro.md
-    │   │   └── openbts3.09_52M_ISO_intro.md
-    │   ├── openbts3.09_52M_02_01
-    │   │   ├── Openbts_for_Dock.md
-    │   │   └── openbts3.09_52M_02_01_intro.md
-    │   └── openbts4.12_52M_01_01
-    │       └── openbts4.12_52M_01_01_intro.md
-    └── usrp_hw
-        └── URAN1
-            ├── URAN1_Cmd.md
-            ├── URAN1_Datasheet.md
-            ├── URAN1_Install_Test.md
-            └── URAN1_Manual.md
-
-14 directories, 19 files
+├── SDR
+│   ├── README.md
+│   ├── hardware
+│   │   └── USRPHW
+│   │       ├── URAN1
+│   │       │   ├── URAN1_Cmd.md
+│   │       │   ├── URAN1_Datasheet.md
+│   │       │   ├── URAN1_Install_Test.md
+│   │       │   └── URAN1_Manual.md
+│   │       └── USRPE1XX
+│   │           └── USRPE1XX_Manual.md
+│   └── software
+│       ├── GNURadio
+│       │   └── GNURadio_Intro.md
+│       └── OpenBTS
+│           ├── CMD
+│           │   ├── Asterisk_Cmd
+│           │   │   └── asterisk1.6_Cmd.md
+│           │   └── OpenBTS_Cmd
+│           │       └── OpenBTS2.6_Cmd.md
+│           ├── Conf
+│           │   ├── Asterisk_Conf
+│           │   │   └── Asterisk1.6_For_OpenBTS2.6_Conf.md
+│           │   ├── Brush_SIM_Card
+│           │   │   ├── Brush_SIM_Card_CN.md
+│           │   │   └── Brush_SIM_Card_US.md
+│           │   └── OpenBTS_Conf
+│           │       └── OpenBTS2.6_Conf.md
+│           ├── OpenBTS_Intro.md
+│           ├── openbts3.09_52M_01_01
+│           │   ├── Openbts_for_Dock.md
+│           │   ├── Openbts_for_Test.md
+│           │   ├── openbts3.09_52M_01_01_intro.md
+│           │   └── openbts3.09_52M_ISO_intro.md
+│           ├── openbts3.09_52M_02_01
+│           │   ├── Openbts_for_Dock.md
+│           │   └── openbts3.09_52M_02_01_intro.md
+│           └── openbts4.12_52M_01_01
+│               └── openbts4.12_52M_01_01_intro.md
+└── other
+    └── sooof_WorkLog.md
+19 directories, 23 files
 ```
 
 **find的使用:**
