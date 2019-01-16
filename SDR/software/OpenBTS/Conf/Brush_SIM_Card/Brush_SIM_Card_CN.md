@@ -1,7 +1,38 @@
-# 公司SIM刷号文本
+# 怎样刷写SIM卡
 
-## 软件环境
-* [下载 pysim](https://github.com/4genginc/pysim/archive/master.zip)
+###### 0x01 --- 环境
+
+* SIM卡（一张）
+* 刷卡器（一个）
+* 装有ubuntu系统的电脑（一台）
+* pysim 软件 [下载地址 1](https://github.com/4genginc/pysim/archive/master.zip) 、[下载地址 2](https://s3.amazonaws.com/rfagora/sooof/software/pySim/pysim.tar)
+
+
+###### 0x02 --- 步骤：
+* 1.	电脑开机，打开终端并切换到root用户
+命令参考：
+快捷键打开终端``“Ctrl +Alt+t”``
+切换到root用户，终端输入：`sudo su`  回车后输入密码
+
+* 2.	将pysim软件复制到电脑桌面，并解压
+命令参考：
+```Bash
+     cd /home/admins/Desktop/   
+     mkdir pysim
+     unzip -o -d /home/admins/Desktop/pysim  master.zip
+     cd pysim
+```
+
+![Brush_SIM_Card00.png](https://s3.amazonaws.com/rfagora/image/img/Brush_SIM_Card/Brush_SIM_Card00.png)
+
+*pysim目录内容如上图：*
+
+* 3.	目录:`` /home/admins/Desktop/pysim/``下，有``“pySim-prog.py”``文件，这是刷卡命令文件，``“Readme”``文件，是刷卡命令参考
+刷写命令参考：
+
+
+
+**刷写命令参考：**
 
 ```Bash
 /*****test*****/

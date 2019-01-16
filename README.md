@@ -43,39 +43,57 @@ git push origin master --force
 │   │       │   ├── URAN1_Datasheet.md
 │   │       │   ├── URAN1_Install_Test.md
 │   │       │   └── URAN1_Manual.md
+│   │       ├── USRP2
+│   │       │   └── USRP2_Manual.md
 │   │       └── USRPE1XX
 │   │           └── USRPE1XX_Manual.md
 │   └── software
 │       ├── GNURadio
-│       │   └── GNURadio_Intro.md
-│       └── OpenBTS
-│           ├── CMD
-│           │   ├── Asterisk_Cmd
-│           │   │   └── asterisk1.6_Cmd.md
-│           │   └── OpenBTS_Cmd
-│           │       └── OpenBTS2.6_Cmd.md
-│           ├── Conf
-│           │   ├── Asterisk_Conf
-│           │   │   └── Asterisk1.6_For_OpenBTS2.6_Conf.md
-│           │   ├── Brush_SIM_Card
-│           │   │   ├── Brush_SIM_Card_CN.md
-│           │   │   └── Brush_SIM_Card_US.md
-│           │   └── OpenBTS_Conf
-│           │       └── OpenBTS2.6_Conf.md
-│           ├── OpenBTS_Intro.md
-│           ├── openbts3.09_52M_01_01
-│           │   ├── Openbts_for_Dock.md
-│           │   ├── Openbts_for_Test.md
-│           │   ├── openbts3.09_52M_01_01_intro.md
-│           │   └── openbts3.09_52M_ISO_intro.md
-│           ├── openbts3.09_52M_02_01
-│           │   ├── Openbts_for_Dock.md
-│           │   └── openbts3.09_52M_02_01_intro.md
-│           └── openbts4.12_52M_01_01
-│               └── openbts4.12_52M_01_01_intro.md
+│       │   ├── GNURadio_Intro.md
+│       │   └── Ubuntu1604\ Install\ Pybombs.md
+│       ├── LTE
+│       │   └── LTE_note
+│       │       └── OAI
+│       │           └── OpenAirInterface\ OAI\ Install.md
+│       ├── OpenBTS
+│       │   ├── CMD
+│       │   │   ├── Asterisk_Cmd
+│       │   │   │   └── asterisk1.6_Cmd.md
+│       │   │   └── OpenBTS_Cmd
+│       │   │       └── OpenBTS2.6_Cmd.md
+│       │   ├── Conf
+│       │   │   ├── Asterisk_Conf
+│       │   │   │   └── Asterisk1.6_For_OpenBTS2.6_Conf.md
+│       │   │   ├── Brush_SIM_Card
+│       │   │   │   ├── Brush_SIM_Card_CN.md
+│       │   │   │   └── Brush_SIM_Card_US.md
+│       │   │   └── OpenBTS_Conf
+│       │   │       └── OpenBTS2.6_Conf.md
+│       │   ├── OpenBTS_Intro.md
+│       │   ├── openbts3.09_52M_01_01
+│       │   │   ├── Openbts_for_Dock.md
+│       │   │   ├── Openbts_for_Test.md
+│       │   │   ├── openbts3.09_52M_01_01_intro.md
+│       │   │   └── openbts3.09_52M_ISO_intro.md
+│       │   ├── openbts3.09_52M_02_01
+│       │   │   ├── Openbts_for_Dock.md
+│       │   │   └── openbts3.09_52M_02_01_intro.md
+│       │   └── openbts4.12_52M_01_01
+│       │       └── openbts4.12_52M_01_01_intro.md
+│       └── UHD
+│           └── UHD\ C&C++\ example.md
 └── other
+    ├── linux_development
+    │   ├── Tools
+    │   │   └── USB
+    │   │       └── make_usb_boot.md
+    │   ├── c&c++
+    │   │   └── cscope_conf.md
+    │   └── ubuntu
+    │       └── ubuntu_info.md
     └── sooof_WorkLog.md
-19 directories, 23 files
+
+29 directories, 30 files
 ```
 
 **find的使用:**
