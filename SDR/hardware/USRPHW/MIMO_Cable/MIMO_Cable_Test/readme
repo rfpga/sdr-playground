@@ -1,0 +1,11 @@
+测试mimo cable
+将两个USRP2用mimo cable相连，master插上网线。
+1.首先将fpga和firmware刷入SD卡
+master:命令如下:
+/share/u2_flash_tool  --dev=/dev/sdb -t fpga /root/mimo/master/u2_rev3.bin -w
+/share/u2_flash_tool  --dev=/dev/sdb -t s/w /root/mimo/master/txrx.bin -w
+slave:命令如下:
+/share/u2_flash_tool  --dev=/dev/sdb -t fpga /root/mimo/slave/u2_rev3_slave.bin -w
+/share/u2_flash_tool  --dev=/dev/sdb -t s/w /root/mimo/slave/txrx_slave.bin -w
+2.将SD卡插入，先给slave加电,slave F灯亮，再给master加电,slave B D F灯亮。
+

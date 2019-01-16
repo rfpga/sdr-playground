@@ -5,7 +5,7 @@
 
 ###### 0X02 --- miniSD卡
 
-* [USRPE1XX miniSD卡 dd 映像](https://s3.)
+* [USRPE1XX miniSD卡 dd 映像](https://s3.amazonaws.com/rfagora/image/USRPEXXDDimage/e110.bin)
 
 ###### 0x03 --- 刷写dd映像命令参考：
 

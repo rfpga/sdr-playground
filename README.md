@@ -38,6 +38,17 @@ git push origin master --force
 │   ├── README.md
 │   ├── hardware
 │   │   └── USRPHW
+│   │       ├── MIMO_Cable
+│   │       │   ├── MIMO_Cable_Test
+│   │       │   │   ├── master
+│   │       │   │   │   ├── txrx.bin
+│   │       │   │   │   └── u2_rev3.bin
+│   │       │   │   ├── readme
+│   │       │   │   ├── slave
+│   │       │   │   │   ├── txrx_slave.bin
+│   │       │   │   │   └── u2_rev3_slave.bin
+│   │       │   │   └── u2_flash_tool
+│   │       │   └── MIMO_Cable_Test.md
 │   │       ├── URAN1
 │   │       │   ├── URAN1_Cmd.md
 │   │       │   ├── URAN1_Datasheet.md
@@ -92,8 +103,6 @@ git push origin master --force
     │   └── ubuntu
     │       └── ubuntu_info.md
     └── sooof_WorkLog.md
-
-29 directories, 30 files
 ```
 
 **find的使用:**
