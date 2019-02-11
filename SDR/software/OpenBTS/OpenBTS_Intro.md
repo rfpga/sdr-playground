@@ -76,3 +76,5 @@
    * a> Valid ARFCN range depends on the band.GSM.ARFCN == 73
    * a> 基站收:=904.6MHz
    * a> 基站发:=949.6MHz
+
+## 0x04 --- [Books:](./OpenBTS_Books.md)

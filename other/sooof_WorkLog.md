@@ -11,4 +11,4 @@
 
 ####### 2019-01-16 wednesday
 
-更新U2 E1XX手册
+更新Mimo MIMO Cable Test
