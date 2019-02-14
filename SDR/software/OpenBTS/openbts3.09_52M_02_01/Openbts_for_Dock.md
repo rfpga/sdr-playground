@@ -36,7 +36,7 @@
   * URAN1 + 电源 + USB线 + Vert900 天线
 
 ### Pre-installed Software
-  * [Ubuntu 14.04](https://)
+  *  [ubuntu-14.04.2-desktop-amd64](https://s3.amazonaws.com/rfagora/image/ubuntu/ubuntu-14.04.2-desktop-amd64.iso)
   * Docker
   * OpenBTS的Docker映像 --- [openbts3.09_52M_02_01.tar](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_02_01/openbts3.09_52M_02_01.tar)
   * 发现usrp的usb设备文件的脚本 --- [find_usb_dev.sh](https://s3.amazonaws.com/rfagora/image/openbts3.09_52M_01_01/find_usb_dev.sh)
