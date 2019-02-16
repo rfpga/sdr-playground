@@ -13,10 +13,14 @@
 
 更新Mimo MIMO Cable Test
 
-####### 2019-02-14
+####### 2019-02-14 thursday
 
 更新Install Docker UHD ang GNUradio to Ubuntu1404
 
 ```
 sudo tar -cf archives.tar /var/cache/apt/archives/
 ```
+
+####### 2019-02-15 friday
+
+更新Vim Vim Config

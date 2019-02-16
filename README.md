@@ -99,6 +99,10 @@ git push origin master --force
 │           ├── USRPBurnN2xxSeries.md
 │           └── uhd.md
 └── other
+    ├── TestCode
+    │   └── golang
+    │       └── leetcode
+    │           └── 000001two-sum.md
     ├── UbuntuISO.md
     ├── linux_development
     │   ├── Linux_developmentS_Books.md
@@ -107,7 +111,8 @@ git push origin master --force
     │   │   │   └── make_usb_boot.md
     │   │   ├── UbuntuTeamviewer.md
     │   │   └── VIM
-    │   │       └── VimConfig.md
+    │   │       ├── VimConfig.md
+    │   │       └── Vim_QuickUseofPictures.md
     │   ├── c&c++
     │   │   └── cscope_conf.md
     │   ├── protocol
@@ -120,7 +125,7 @@ git push origin master --force
     │   └── AntennasProduction.md
     └── sooof_WorkLog.md
 
-37 directories, 48 files
+40 directories, 50 files
 ```
 
 **find的使用:**
