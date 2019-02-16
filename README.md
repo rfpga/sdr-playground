@@ -63,7 +63,7 @@ git push origin master --force
 │       ├── GNURadio
 │       │   ├── GNURadio_Intro.md
 │       │   └── Ubuntu1604\ Install\ Pybombs.md
-│       ├── InstallUHDGNUradiotoUbuntu1404.md
+│       ├── InstallDocker_UHD_GNUradiotoUbuntu1404.md
 │       ├── LTE
 │       │   └── LTE_note
 │       │       └── OAI
@@ -96,14 +96,18 @@ git push origin master --force
 │       │       └── openbts4.12_52M_01_01_intro.md
 │       └── UHD
 │           ├── UHD\ C&C++\ example.md
+│           ├── USRPBurnN2xxSeries.md
 │           └── uhd.md
 └── other
     ├── UbuntuISO.md
     ├── linux_development
     │   ├── Linux_developmentS_Books.md
     │   ├── Tools
-    │   │   └── USB
-    │   │       └── make_usb_boot.md
+    │   │   ├── USB
+    │   │   │   └── make_usb_boot.md
+    │   │   ├── UbuntuTeamviewer.md
+    │   │   └── VIM
+    │   │       └── VimConfig.md
     │   ├── c&c++
     │   │   └── cscope_conf.md
     │   ├── protocol
@@ -115,6 +119,8 @@ git push origin master --force
     ├── production
     │   └── AntennasProduction.md
     └── sooof_WorkLog.md
+
+37 directories, 48 files
 ```
 
 **find的使用:**

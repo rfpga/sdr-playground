@@ -3,7 +3,7 @@
 
 ###### 0x01 ---
 
-* 1、路径/uhd/firmware/fx2/usrp1/下，Usrp_main.c文件中，主函数：
+* 1、路径/uhd/firmware/fx2/usrp1/下，usrp_main.c文件中，主函数：
 
 ```
 memset (hash1, 0, USRP_HASH_SIZE); //为FPGA 比特流散列清零，重装。（zero fpga bitstream hash.  This forces reload）
@@ -11,7 +11,7 @@ memset (hash1, 0, USRP_HASH_SIZE); //为FPGA 比特流散列清零，重装。�
 
 ```
 init_usrp ();	//初始化USRP
-  	init_gpif ();	//初始化GPIF
+init_gpif ();	//初始化GPIF
 
   // if (UC_START_WITH_GSTATE_OUTPUT_ENABLED)
   IFCONFIG |= bmGSTATE;			// 如果没冲突，首先用它
