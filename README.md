@@ -151,7 +151,7 @@ find . -name '*.DS_Store' -type f -delete
 删除所有目录的.DS_store
 
 ```
-sudo find / -name “.DS_Store” -depth -exec rm {} \;
+sudo find ./ -name “.DS_Store” -depth -exec rm {} \;
 ```
 
 禁止.DS_store生成：

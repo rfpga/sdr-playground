@@ -12,16 +12,7 @@
 
 ```bash
 $sudo su
-mkdir 14.04
-cd 14.04
-wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/install_uhdgnuradio.sh
-wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/020_install_uhd.sh
-wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/025_install_gnuradio.sh
-wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/archives1404.tar
-wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/uhd.tar.bz2
-wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/gnuradio.tar.bz2
-
-chmon 755 *.sh
+chmod 755 *.sh
 ./install_uhdgnuradio.sh
 
 ```
@@ -36,18 +27,8 @@ chmon 755 *.sh
 
 ```bash
 $sudo su
-#mkdir 14.04
-#wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/install_uhdgnuradiodocker.sh
-#wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/015_install_docker.sh
-#wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/020_install_uhd.sh
-#wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/025_install_gnuradio.sh
-#wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/archives1404.tar
-#wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/uhd.tar.bz2
-#wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/gnuradio.tar.bz2
-
-#chmon 755 *.sh
-#./install_uhdgnuradiodocker.sh
-
+chmod 755 *.sh
+./install_uhdgnuradiodocker.sh
 ```
 
 ###### 0X04 --- 安装vnc：
@@ -58,7 +39,7 @@ mac使用vnc远程登录ubuntu14.04桌面
 在Ubuntu上安装x11vnc，如下：
 
 ```
-sudo apt-get install x11vnc
+sudo apt-get install x11vnc -y
 ```
 
 * 2.配置vnc密码
