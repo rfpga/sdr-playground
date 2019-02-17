@@ -8,12 +8,7 @@
 
 ```bash
 $sudo su
-mkdir VimConf
-cd VimConf
-wget https://s3.amazonaws.com/rfagora/sooof/software/development/tools/VIM/VimConf/README
-wget https://s3.amazonaws.com/rfagora/sooof/software/development/tools/VIM/VimConf/h.vimrc
-wget https://s3.amazonaws.com/rfagora/sooof/software/development/tools/VIM/VimConf/vim.tar.gz
-wget https://s3.amazonaws.com/rfagora/sooof/software/development/tools/VIM/VimConf/install_vim_conf.sh
+wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/UbuntuConf/install_vim_conf.sh
 chmon 755 *.sh
 ./install_vim_conf.sh
 

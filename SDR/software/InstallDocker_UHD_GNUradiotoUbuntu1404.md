@@ -12,6 +12,7 @@
 
 ```bash
 $sudo su
+wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1404/install_uhdgnuradio.sh
 chmod 755 *.sh
 ./install_uhdgnuradio.sh
 
@@ -19,7 +20,7 @@ chmod 755 *.sh
 
 ###### 0X02 --- 安装docker / UHD / GNURadio：
 
-* 1、制作ubuntu-14.04.2的U盘启动盘 [make_usb_boot](<../../other/linux_development/Tools/USB/make_usb_boot.md>)
+* 1、[制作ubuntu-14.04.2的U盘启动盘](<../../other/linux_development/Tools/USB/make_usb_boot.md>)
 
 * 2、安装ubuntu-14.04.2
 
@@ -27,6 +28,7 @@ chmod 755 *.sh
 
 ```bash
 $sudo su
+wget https://github.com/iplinkme/sooof_workspace/blob/master/WorkSH/Ubuntu1404/install_uhdgnuradiodocker.sh
 chmod 755 *.sh
 ./install_uhdgnuradiodocker.sh
 ```
@@ -63,8 +65,8 @@ x11vnc -forever -shared -rfbauth ~/.vnc/passwd
 
 连上后效果如下
 
-![vnc viewer 02](https://s3.amazonaws.com/rfagora/image/tools/VNC/VncViewer0002.png
+![vnc viewer 02](https://s3.amazonaws.com/rfagora/image/tools/VNC/VncViewer0002.png)
 
 ###### 0X04 --- 安装atom：
 
-https://atom.io/download/deb
+* [atom for ubuntu1404](https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/U1404S/atom-amd64_u1404.deb)
