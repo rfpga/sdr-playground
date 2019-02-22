@@ -16,9 +16,9 @@ chmon 755 *.sh
 
 * 3、快速配置ctags
 ```
-wget https://s3.amazonaws.com/rfagora/sooof/software/sh/development/tags.sh
-chmod 755 tags.sh
-./tags.sh
+wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/UbuntuConf/runVimforProject.sh
+chmod 755 runVimforProject.sh
+./runVimforProject.sh $ProjectPATH
 
 
 vim -t main 敲tab键

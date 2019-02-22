@@ -1,7 +1,11 @@
-# UHD Analysis
+# UHD FX2 Analysis
 
 
-###### 0x01 ---
+###### 0x01 --- 参照:
+
+* [ubuntu-14.04.2-desktop-amd64](https://s3.amazonaws.com/rfagora/image/ubuntu/ubuntu-14.04.2-desktop-amd64.iso)
+
+###### 0x02 --- 分析:
 
 * 1、路径/uhd/firmware/fx2/usrp1/下，usrp_main.c文件中，主函数：
 

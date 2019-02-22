@@ -1,18 +1,18 @@
-# Install Docker UHD ang GNUradio to Ubuntu1404
+# Install Docker UHD ang GNUradio to Ubuntu1604
 
 
 ###### 0X01 --- 安装UHD GNURadio：
 
 
-* 1、制作ubuntu-14.04.2的U盘启动盘 [make_usb_boot](<../../other/linux_development/Tools/USB/make_usb_boot.md>)
+* 1、制作ubuntu-16.04.2的U盘启动盘 [make_usb_boot](<../../other/linux_development/Tools/USB/make_usb_boot.md>)
 
-* 2、安装ubuntu-14.04.2
+* 2、安装ubuntu-16.04.2
 
 * 3、按control+ait+t启动终端
 
 ```bash
 $sudo su
-wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1404/install_uhdgnuradio_1404.sh
+wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1604/install_uhdgnuradio_1604.sh
 chmod 755 *.sh
 ./install_uhdgnuradio.sh
 
@@ -28,7 +28,7 @@ chmod 755 *.sh
 
 ```bash
 $sudo su
-wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1404/install_uhdgnuradiodocker_1404.sh
+wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1404/install_uhdgnuradiodocker.sh
 chmod 755 *.sh
 ./install_uhdgnuradiodocker.sh
 ```
@@ -69,4 +69,25 @@ x11vnc -forever -shared -rfbauth ~/.vnc/passwd
 
 ###### 0X04 --- 安装atom：
 
-* [atom for ubuntu1404](https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/U1404S/atom-amd64_u1404.deb)
+* [atom for ubuntu1604](https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1604/U1404S/atom-amd64_u1604.deb)
+
+* install
+
+```
+sudo apt-get -f install
+sudo dpkg -i atom-amd64_u1604.deb
+```
+
+###### 0X05 --- 安装vim conf：
+
+
+###### 0X05 --- 安装teamviewer：
+
+* [teamviewer for ubuntu1604](https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1604/U1404S/teamviewer_14.1.9025_amd64_u1604.deb)
+
+* install
+
+```
+sudo apt-get -f install
+sudo dpkg -i teamviewer_14.1.9025_amd64_u1604.deb
+```
