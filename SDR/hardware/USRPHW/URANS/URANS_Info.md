@@ -2,7 +2,30 @@
 
 本文基于 **[OpenBTS3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)**
 
-#### 0x01 --- [URANS 产品配件说明](<./URANS_Part.md>)
+#### 0X01 --- 产品特征：
+
+* 一个收发器卡槽
+
+* SC16样品模式 - RX和TX：16bit的采样可达到8MHz的射频带宽
+
+* SC8采样模式 – RX： 8bit的采样可达到16MHz的射频带宽
+
+* USB 2.0 高速连接
+
+* 低成本解决方案
+
+* FPGA：Altera Cyclone
+
+* ADCs: 12-位64 MS/s
+
+* DACs: 14-位128 MS/s
+
+
+
+#### 0x01 --- [URANS 产品配件及接线说明](<./URANS_Part.md>)
+
+
+other/linux_development/protocol/BUS/IDE.md
 
 #### 0x02 --- [系统安装测试](<../USRP1/U1_Install_Test.md>)
 
