@@ -24,9 +24,7 @@ dd of=/dev/mmcblk0 if=/home/sooof/u2SD.bin  #将u2SD.bin还原到SD卡
 
 ###### 0x04 --- 连接：
 
-* USB接口种类：
-
-![USB_Type](https://s3.amazonaws.com/rfagora/image/img/USRPE1XX_Conf/USB_Type.jpg)
+* [USB接口种类：](<../../../../other/linux_development/Tools/USB/USB_Types.md>)
 
 * USB Hub的电源、mini-B线缆：
 

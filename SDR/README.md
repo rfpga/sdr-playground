@@ -4,7 +4,7 @@
 
 * [MIMO_Cable](<./hardware/USRPHW/MIMO_Cable/MIMO_Cable_Info.md>)
 
-* [RFX900](<./hardware/USRPHW/RFX900/URAN1_Info.md>)
+* [RFX900](<./hardware/USRPHW/RFX900/RFX900_Info.md>)
 
 * [URAN1](<./hardware/USRPHW/URAN1/URAN1_Info.md>)
 
