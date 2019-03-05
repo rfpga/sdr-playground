@@ -2,13 +2,13 @@
 
 本文基于 **[OpenBTS3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)**
 
-#### 0x01 --- [系统安装测试](<./URAN1_Install_Test.md>)
+#### 0x01 --- [URANS 产品配件说明](<./URAN1_Install_Test.md>)
 
-#### 0x02 --- [系统安装测试](<./URAN1_Install_Test.md>)
+#### 0x02 --- [系统安装测试](<../USRP1/U1_Install_Test.md>)
 
 #### 0x03 --- [URAN1测试](<../../../software/OpenBTS/openbts3.09_52M_01_01/Openbts_for_Test.md>)
 
-#### 0x04 --- [URAN1相关命令的使用](<./URAN1_Cmd.md>)
+#### 0x04 --- [URAN1相关命令的使用](<../USRP1/U1_Cmd.md>)
 
 #### 0X05 --- 相关命令
 * [OpenBTS 命令](<../../../software/OpenBTS/CMD/OpenBTS_Cmd/OpenBTS2.6_Cmd.md>)

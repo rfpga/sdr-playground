@@ -2,7 +2,13 @@
 
 ###### 0X01 --- Hardware
 
-* [URAN1](<./hardware/USRPHW/URAN1/URAN1_Manual.md>)
+* [URAN1](<./hardware/USRPHW/URAN1/URAN1_Info.md>)
+
+* [URANS](<./hardware/USRPHW/URANS/URANS_Info.md>)
+
+* [USRP1](<./hardware/USRPHW/URANS/USRP1_Info.md>)
+
+* [USRP2](<./hardware/USRPHW/URANS/USRP2_Info.md>)
 
 * [USRPE1XX](<./hardware/USRPHW/USRPE1XX/USRPE1XX_Manual.md>)
 
