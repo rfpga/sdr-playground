@@ -1,5 +1,7 @@
 # 软交换配置
 
+本文基于 **[OpenBTS3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)**
+
 ## 配置Asterisk：
 
 * 将OpenBTS中AsteriskConfigure/文件夹下的sip.conf和extensions.conf的内容复制到/etc/asterisk/下sip.conf和extensions.conf。若使用自动注册用户程序，则不用对sip.conf和extensions.conf文件进行编辑。

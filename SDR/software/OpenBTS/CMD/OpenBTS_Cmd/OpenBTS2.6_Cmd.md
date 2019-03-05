@@ -1,5 +1,7 @@
 #
 
+本文基于 **[OpenBTS3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)**
+
 ```
 1547411825.074518 3078600400:
 Starting the system...

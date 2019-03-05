@@ -1,5 +1,7 @@
 ###  U1系列 相关命令的使用
 
+本文基于 **[OpenBTS3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)**
+
 ###### 1> 常用命令
 
 ```bash

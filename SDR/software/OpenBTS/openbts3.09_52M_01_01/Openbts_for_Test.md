@@ -1,5 +1,7 @@
 ### 设备测试
 
+本文基于 **[OpenBTS3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)**
+
 **设备与电脑的USB总线测试**
 
 ```bash

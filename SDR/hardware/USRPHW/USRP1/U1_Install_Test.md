@@ -1,5 +1,7 @@
 # 系统安装测试
 
+本文基于 **[OpenBTS3.09 52M ISO](https://s3.cn-north-1.amazonaws.com.cn/microembedded/system_mirrors/openbts_v3.09_52M.iso)**
+
 ## 0x01 --- 设置光驱启动
 
 1、开启计算机，进入系统之前按 F2（不同厂商之间可能有所差别）。
