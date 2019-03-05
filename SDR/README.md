@@ -16,7 +16,7 @@
 
 * [USRPE1XX](<./hardware/USRPHW/USRPE1XX/USRPE1XX_Manual.md>)
 
-######  0X02 --- Sardware
+######  0X02 --- Software
 
 * [GNURadio](<./software/GNURadio/GNURadio_Intro.md>)
 
