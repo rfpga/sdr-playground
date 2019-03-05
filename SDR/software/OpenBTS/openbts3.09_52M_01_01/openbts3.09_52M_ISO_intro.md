@@ -2,11 +2,11 @@
 
 #### 0x01 --- [制作live USB](<../../../../other/linux_development/Tools/USB/make_usb_boot.md>)
 
-#### 0x02 --- [系统安装测试](<../../../hardware/USRPHW/URAN1/URAN1_Install_Test.md>)
+#### 0x02 --- [系统安装测试](<../../../hardware/USRPHW/USRP1/U1_Install_Test.md>)
 
 #### 0x03 --- [URAN1测试](<./Openbts_for_Test.md>)
 
-#### 0x04 --- [URAN1相关命令的使用](<../../../hardware/USRPHW/URAN1/URAN1_Cmd.md>)
+#### 0x04 --- [URAN1相关命令的使用](<../../../hardware/USRPHW/USRP1/U1_Cmd.md>)
 
 #### 0X05 --- 相关命令
 * [OpenBTS 命令](<../CMD/OpenBTS_Cmd/OpenBTS2.6_Cmd.md>)
