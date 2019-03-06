@@ -14,7 +14,7 @@
 $sudo su
 wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1604/install_uhdgnuradio_1604.sh
 chmod 755 *.sh
-./install_uhdgnuradio.sh
+./install_uhdgnuradio_1604.sh
 
 ```
 
@@ -28,9 +28,9 @@ chmod 755 *.sh
 
 ```bash
 $sudo su
-wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1404/install_uhdgnuradiodocker.sh
+wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1404/install_uhdgnuradiodocker_1604.sh
 chmod 755 *.sh
-./install_uhdgnuradiodocker.sh
+./install_uhdgnuradiodocker_1604.sh
 ```
 
 ###### 0X04 --- 安装vnc：

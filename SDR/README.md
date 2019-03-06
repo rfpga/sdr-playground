@@ -6,9 +6,9 @@
 
 * [RFX900](<./hardware/USRPHW/RFX900/RFX900_Info.md>)
 
-* [URAN1](<./hardware/USRPHW/URAN1/URAN1_Info.md>)
+* [URAN-1](<./hardware/USRPHW/URAN1/URAN1_Info.md>)
 
-* [URANS](<./hardware/USRPHW/URANS/URANS_Info.md>)
+* [URAN-S](<./hardware/USRPHW/URANS/URANS_Info.md>)
 
 * [USRP1](<./hardware/USRPHW/URANS/USRP1_Info.md>)
 

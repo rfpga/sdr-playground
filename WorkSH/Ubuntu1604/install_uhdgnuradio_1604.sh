@@ -1,7 +1,8 @@
 #!/bin/bash
 echo "### Install UHD GNURadio ###"
-mkdir 14.04
-cd 14.04
+mkdir 16.04
+cd 16.04
+chmod 755 *.sh
 echo "### Download SH and tar ###"
 wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1604/install_uhd_1604.sh
 wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1604/install_gnuradio_1604.sh
@@ -10,7 +11,7 @@ wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/u
 wget https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1404/gnuradio.tar.bz2
 echo "### update ###"
 sudo apt-get update
-sudo tar xf archives1404.tar -C /
+sudo tar xf archives1604.tar -C /
 echo "### install git vim ssh ###"
 sudo apt-get install -y git vim openssh-server openssh-client
 echo "### install git ctags cscope ###"
