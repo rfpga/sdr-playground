@@ -1,6 +1,6 @@
-# 制作 ubuntu 的 U 盘启动
+# Windows 制作 ubuntu 的 U 盘启动
 
-###### 0x01 --- [使用rufus软件](https://s3.amazonaws.com/rfagora/sooof/software/IsoTools/rufus-2.1.exe)
+###### 0x01 --- [下载rufus软件](https://s3.amazonaws.com/rfagora/sooof/software/IsoTools/rufus-2.1.exe)
 
 ###### 制作ubuntu的U盘启动
 使用rufus软件来制作ubuntu的U盘启动。

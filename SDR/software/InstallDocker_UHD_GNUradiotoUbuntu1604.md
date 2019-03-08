@@ -78,10 +78,10 @@ sudo apt-get -f install
 sudo dpkg -i atom-amd64_u1604.deb
 ```
 
-###### 0X05 --- 安装vim conf：
+###### 0X05 --- []安装vim conf](../../other/linux_development/Tools/VIM/VimConfig.md)：
 
 
-###### 0X05 --- 安装teamviewer：
+###### 0X06 --- 安装teamviewer：
 
 * [teamviewer for ubuntu1604](https://s3.amazonaws.com/rfagora/image/SDR/InstallUHDGNUradiotoUbuntu1604/U1404S/teamviewer_14.1.9025_amd64_u1604.deb)
 
