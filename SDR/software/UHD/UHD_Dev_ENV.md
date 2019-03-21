@@ -55,9 +55,9 @@ grub>boot
 * 本机方式
 
 ```
+wget https://s3.amazonaws.com/rfagora/image/SDR/root9.04.tar.bz2
 tar xjvf root904.tar.bz2 -C /mnt
 
-#:mount     /dev/sda5     /mnt  （上面已做）
 #:mount -t  proc   proc   /mnt/proc
 #:mount -o bind   /dev   /mnt/dev
 #:mount -o bind   /sys   /mnt/sys
@@ -65,10 +65,14 @@ tar xjvf root904.tar.bz2 -C /mnt
 
 ```
 
-###### 0X04 ---
+###### 0X04 --- fx2 firmware 编译
 
 ```
+cd  uhd/firmware/fx2
+mkdir build
+cmake ../
+make
+
 cp -av /usr/local/share/uhd/images/usrp1_fw.ihx{,bak}
 cp -av ./usrp1/usrp1_fw.ihx /usr/local/share/uhd/images/usrp1_fw.ihx
-
 ```

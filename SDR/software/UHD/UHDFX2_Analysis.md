@@ -47,3 +47,32 @@ init_gpif ();	//初始化GPIF
 
   main_loop ();
 ```
+
+###### 0x03 --- 分析:
+
+`init_usrp ();	//初始化USRP` 此函数调用`usrp_common.c`中的`init_usrp ()`
+
+```
+void
+init_usrp (void)
+{
+  CPUCS = bmCLKSPD1;    // CPU runs @ 48 MHz (bmCLKSPD1=10000)
+  CKCON = 0;        // MOVX takes 2 cycles
+
+  // IFCLK is generated internally and runs at 48 MHz; GPIF "master mode" (IFCONFIG = 11110010)
+
+  IFCONFIG = bmIFCLKSRC | bm3048MHZ | bmIFCLKOE | bmIFCLKPOL | bmIFGPIF;
+  SYNCDELAY;
+
+  // configure IO ports (B and D are used by GPIF)
+
+  IOA = bmPORT_A_INITIAL;   // Port A initial state      ---   11 1000
+  OEA = bmPORT_A_OUTPUTS;   // Port A direction register ---   11 1011
+
+  IOC = bmPORT_C_INITIAL;   // Port C initial state      --- 1100 0000
+  OEC = bmPORT_C_OUTPUTS;   // Port C direction register --- 1100 1111
+
+  IOE = bmPORT_E_INITIAL;   // Port E initial state      --- 1111 0000
+  OEE = bmPORT_E_OUTPUTS;   // Port E direction register --- 1111 1000
+
+```

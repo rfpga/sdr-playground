@@ -4,7 +4,7 @@
 
 #### 0x02 --- [系统安装测试](<../../../hardware/USRPHW/USRP1/U1_Install_Test.md>)
 
-#### 0x03 --- [URAN1测试](<./Openbts_for_Test.md>)
+#### 0x03 --- [URAN1一般测试和OpenBTS测试](<./Openbts_for_Test.md>)
 
 #### 0x04 --- [URAN1相关命令的使用](<../../../hardware/USRPHW/USRP1/U1_Cmd.md>)
 

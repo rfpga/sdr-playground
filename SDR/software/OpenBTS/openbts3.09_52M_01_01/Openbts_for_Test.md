@@ -28,15 +28,25 @@
 
 **OpenBTS测试**
 
-* 1> 下载asterisk 配置文件（[sip.conf](https://s3.amazonaws.com/rfagora/image/conf/asterisk/openbts2.6_asterisk/sip.conf)、[extensions.conf](https://s3.amazonaws.com/rfagora/image/conf/asterisk/openbts2.6_asterisk/extensions.conf))
+* 1> 下载asterisk cn 配置文件（[sip.conf](https://s3.amazonaws.com/rfagora/image/conf/asterisk/openbts2.6_asterisk/460sip.conf)、[extensions.conf](https://s3.amazonaws.com/rfagora/image/conf/asterisk/openbts2.6_asterisk/460extensions.conf))
+
+ 下载asterisk us 配置文件（[sip.conf](https://s3.amazonaws.com/rfagora/image/conf/asterisk/openbts2.6_asterisk/310sip.conf)、[extensions.conf](https://s3.amazonaws.com/rfagora/image/conf/asterisk/openbts2.6_asterisk/310extensions.conf))
 * 2> control+alt+t打开终端
 
 ```bash
   #sudo su
+  #mv 460sip.conf /etc/asterisk/sip.conf
+  #mv 460extensions.conf /etc/asterisk/extensions.conf
   #asterisk -rx "sip reload"
   #asterisk -rx "dialplan reload"
 ```
-
+```bash
+  #sudo su
+  #mv 310sip.conf /etc/asterisk/sip.conf
+  #mv 310extensions.conf /etc/asterisk/extensions.conf
+  #asterisk -rx "sip reload"
+  #asterisk -rx "dialplan reload"
+```
 * 3> 运行openbts
 
 ```bash
