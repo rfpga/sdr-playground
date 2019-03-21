@@ -19,6 +19,6 @@
 
 ![所需部件总览 01](https://s3.amazonaws.com/rfagora/image/img/URAN1/URAN100001.JPG)
 
-![URANS 01](https://s3.amazonaws.com/rfagora/image/img/URAN1/URAN100002.JPG)
+![URAN1 01](https://s3.amazonaws.com/rfagora/image/img/URAN1/URAN100002.JPG)
 
-![URANS 02](https://s3.amazonaws.com/rfagora/image/img/URAN1/URAN100003.JPG)
+![URAN1 02](https://s3.amazonaws.com/rfagora/image/img/URAN1/URAN100003.JPG)
