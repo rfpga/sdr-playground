@@ -4,7 +4,7 @@
 
 * SIM卡（一张）
 * 刷卡器（一个）
-* 装有ubuntu系统的电脑（一台）
+* 装有ubuntu 1204系统之前的电脑（一台）
 * pysim 软件 [下载地址 1](https://github.com/4genginc/pysim/archive/master.zip) 、[下载地址 2](https://s3.amazonaws.com/rfagora/sooof/software/pySim/pysim.tar)
 
 
@@ -19,6 +19,8 @@
 ```Bash
      cd /home/admins/Desktop/   
      mkdir pysim
+     tar xvf pysim.tar
+     或
      unzip -o -d /home/admins/Desktop/pysim  master.zip
      cd pysim
 ```
