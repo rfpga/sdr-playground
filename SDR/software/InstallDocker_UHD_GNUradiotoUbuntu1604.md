@@ -1,4 +1,4 @@
-# Install Docker UHD ang GNUradio to Ubuntu1604
+# Install Docker UHD ang GNUradio for Ubuntu1604
 
 
 ###### 0X01 --- 安装UHD GNURadio：
@@ -18,14 +18,14 @@ chmod 755 *.sh
 
 ```
 
-###### 0X02 --- 安装docker / UHD / GNURadio：
+###### 0X02 --- 安装vim式的IDE开发环境：
+[安装vim式的IDE开发环境](<../../other/linux_development/Tools/VIM/VimConfig.md>)
 
-* 1、[制作ubuntu-14.04.2的U盘启动盘](<../../other/linux_development/Tools/USB/make_usb_boot.md>)
 
-* 2、安装ubuntu-14.04.2
 
-* 3、按control+ait+t启动终端
+###### 0X03 --- 其他记录：
 
+**安装Docker 、 UHD 、GNURadio**
 ```bash
 $sudo su
 wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/Ubuntu1404/install_uhdgnuradiodocker_1604.sh
@@ -33,8 +33,7 @@ chmod 755 *.sh
 ./install_uhdgnuradiodocker_1604.sh
 ```
 
-###### 0X04 --- 安装vnc：
-
+**安装vnc**
 mac使用vnc远程登录ubuntu14.04桌面
 
 * 1.安装
@@ -78,7 +77,7 @@ sudo apt-get -f install
 sudo dpkg -i atom-amd64_u1604.deb
 ```
 
-###### 0X05 --- []安装vim conf](../../other/linux_development/Tools/VIM/VimConfig.md)：
+###### 0X05 --- [安装vim conf](../../other/linux_development/Tools/VIM/VimConfig.md)：
 
 
 ###### 0X06 --- 安装teamviewer：
