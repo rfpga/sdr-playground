@@ -9,7 +9,7 @@
 ```bash
 $sudo su
 wget https://raw.githubusercontent.com/iplinkme/sooof_workspace/master/WorkSH/UbuntuConf/install_vim_conf.sh
-chmon 755 *.sh
+chmod 755 *.sh
 ./install_vim_conf.sh
 
 ```
