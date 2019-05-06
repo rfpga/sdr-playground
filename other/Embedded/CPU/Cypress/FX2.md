@@ -19,6 +19,14 @@
 
 * [USB学习笔记连载](https://www.cnblogs.com/raymon-tec/tag/USB2.0/)
 
+* [usb2.0高速视频采集之68013A寄存器配置说明](https://www.cnblogs.com/ccjt/p/5291583.html)
+
+* [USB GPIFSlave FIFO 开发技术手册](https://wenku.baidu.com/view/1af351e8a32d7375a51780b4.html)
+
+
+
+
+
 ###### 0x03 --- 开发程序链接
 
 * [CY7C68013A development board](http://www.hmangas.com/Electronica/Datasheets/Logic%20Analyzer/CY7C68013A%20development%20board/)
